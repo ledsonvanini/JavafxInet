@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="admRightSide" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="840.0" styleClass="adm_col_devices" stylesheets="@../../styles/adm-right-side.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.inet.controllers.AdminController">
+   <top>
+      <fx:include source="AdmTopBar.fxml" BorderPane.alignment="TOP_CENTER" />
+   </top>
+<!--   <left>-->
+<!--      <fx:include source="AdmColDevices.fxml" />-->
+<!--   </left>-->
+   <center>
+      <fx:include source="AdmGridCards.fxml" />
+   </center>
+</BorderPane>

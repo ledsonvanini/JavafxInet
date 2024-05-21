@@ -1,0 +1,88 @@
+
+* {
+    // Colors
+    -fx-alpha: transparent;
+    -fx-dark1: #0B0C0E;
+    -fx-dark2: #101113;
+    -fx-dark-grey1:#C3CCD5;
+    -fx-light-grey1:#202226;
+    -fx-light-grey2:#E8E8E8;
+    -fx-medium-blue1:#5794F2;
+    -fx-medium-blue2:#a7c4ef;
+    -fx-medium-green1:#80DC74;
+    -fx-medium-red1:#E5475A;
+    -fx-medium-yellow1:#FADE2A;
+
+    // Utils
+    -fx-intern-b-radius: 10.0px;
+    -fx-extern-b-radius: 15.0px;
+
+}
+
+.adm_col_devices {
+    -fx-background-color: -fx-dark2;
+    -fx-padding: 6px;
+
+
+}
+.adm_col_buttons {
+    -fx-spacing: 2;
+}
+.adm_col_devices ScrollPane {
+    -fx-background-color: transparent;
+
+}
+.adm_menu_button {
+    -fx-background-color: -fx-light-grey1;
+    -fx-border-color: -fx-medium-blue1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-width: .5;
+    -fx-pref-width: 160;
+    -fx-alignment: center-left;
+    -fx-padding: 9;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-graphic-text-gap: 10;
+  }
+  .adm_menu_button: focused {
+    -fx-background-color: -fx-dark1;
+
+ }
+    .adm_menu_button: hover {
+      -fx-border-color:  -fx-light-grey1;
+      -fx-border-color: -fx-medium-blue2;
+    }
+  .adm_menu_button FontAwesomeIconView {
+   -fx-fill: -fx-medium-blue2;
+   -fx-padding: 1;
+   -fx-spacing: 1;
+ }
+ /* Scroll Pane Config */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border: transparent;
+    -fx-fit-to-width: true;
+}
+
+.scroll-bar:horizontal,
+ .scroll-bar:vertical{
+     -fx-background-color:transparent;
+ }
+
+ .increment-button, .decrement-button {
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+ }
+ .scroll-bar:horizontal .track,
+ .scroll-bar:vertical .track{
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+     -fx-background-radius: 0em;
+ }
+
+ .scroll-bar:horizontal .thumb,
+ .scroll-bar:vertical .thumb {
+     -fx-background-color: -fx-light-grey1;
+     -fx-background-radius: 5em;
+ }

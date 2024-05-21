@@ -1,0 +1,52 @@
+*{
+    // Colors
+    -fx-alpha: transparent;
+    -fx-dark1: #0B0C0E;
+    -fx-dark-grey1:#C3CCD5;
+    -fx-light-grey1:#202226;
+    -fx-light-grey2:#E8E8E8;
+    -fx-medium-blue1:#5794F2;
+    -fx-medium-blue2:#a7c4ef;
+    -fx-medium-green1:#80DC74;
+    -fx-medium-red1:#E5475A;
+    -fx-medium-yellow1:#FADE2A;
+
+    // Utils
+    -fx-intern-radius: 1em;
+    -fx-extern-radius: 2em;
+
+}
+.scr_login {
+    -fx-background-color: -fx-dark1;
+    -fx-border-radius:10px;
+    -fx-background-radius: 10px;
+}
+
+.btn_close_login, btn_minimize{
+    -fx-cursor: hand;
+}
+
+.left_side_login {
+    -fx-background-color: -fx-light-grey1;
+    -fx-border-radius: 1em 0 0 1em;
+    -fx-background-radius:  1em 0 0 1em;
+
+}
+.login_form {
+    -fx-background-color:-fx-dark1;
+    -fx-border-radius: 2em;
+
+}
+.txt_field_login {
+   -fx-background-color: -fx-medium-blue1,-fx-dark1;
+   -fx-background-insets: 0, 0 0 1 0 ;
+   -fx-text-fill: -fx-medium-blue2;
+}
+.btn_login_client {
+    -fx-background-color: -fx-medium-blue1;
+    -fx-border-radius: 2em;
+    -fx-background-radius:  2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-dark1;
+
+}

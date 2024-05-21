@@ -1,0 +1,84 @@
+
+* {
+    // Colors
+    -fx-alpha: transparent;
+    -fx-dark1: #0B0C0E;
+    -fx-dark-grey1:#C3CCD5;
+    -fx-light-grey1:#202226;
+    -fx-light-grey2:#E8E8E8;
+    -fx-medium-blue1:#5794F2;
+    -fx-medium-blue2:#a7c4ef;
+    -fx-medium-green1:#80DC74;
+    -fx-medium-red1:#E5475A;
+    -fx-medium-yellow1:#FADE2A;
+
+    // Utils
+    -fx-intern-b-radius: 10.0px;
+    -fx-extern-b-radius: 15.0px;
+
+}
+
+.main_menu_container {
+    -fx-background-color: -fx-light-grey1;
+    -fx-alignment: center;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.menu_logo {
+    -fx-alignment: center;
+}
+.menu_button {
+    -fx-background-color: -fx-light-grey1;
+    -fx-border-color: -fx-dark1;
+    -fx-border-width: .5;
+    -fx-pref-width: 210;
+    -fx-alignment: center-left;
+    -fx-padding: 15;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-graphic-text-gap: 10;
+
+}
+.menu_button FontAwesomeIconView {
+    -fx-fill: -fx-medium-blue2;
+    -fx-padding: 15;
+    -fx-spacing: 5;
+}
+.menu_button Text {
+    -fx-padding: 20px;
+    -fx-label-padding: 10;
+}
+.menu_button:hover {
+     -fx-text-fill: -fx-medium-blue2;
+}
+.menu_button:focused {
+    -fx-background-color: -fx-dark1;
+}
+/* Credit Section*/
+.parent_credit_section {
+ -fx-border-radius: 1em, 0, 0, 1em;
+}
+.credit_section{
+    -fx-alignment: center;
+    -fx-border-radius: 2;
+    -fx-spacing: 10;
+    -fx-text-fill: white;
+}
+
+.credit_section_btn {
+    -fx-background-color: -fx-medium-red1;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-cursor:hand;
+    -fx-border-radius: 20px;
+}
+.credit_section_btn:hover {
+    -fx-background-color: red;
+}
+.credit_section_btn FontAwesomeIconView {
+    -fx-fill: white;
+    -fx-padding: 25;
+}
+.credit_section Label {
+       -fx-cursor:hand;
+}

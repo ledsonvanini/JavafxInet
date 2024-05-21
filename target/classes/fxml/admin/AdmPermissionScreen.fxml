@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="admPermissionSection" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="630.0" styleClass="adm_dash_permissoes" stylesheets="@../../styles/AdmDashPermissoes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.inet.controllers.AdminController">
+   <children>
+      <Label layoutX="15.0" layoutY="15.0" styleClass="title_user" text="Isaque de Lima Rodrigues" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Label layoutX="467.0" layoutY="26.0" text="Id:" AnchorPane.topAnchor="20.0">
+         <styleClass>
+            <String fx:value="title_bold" />
+            <String fx:value="p" />
+         </styleClass></Label>
+      <Label layoutX="506.0" layoutY="26.0" styleClass="p" text="asdc212dsad123123" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="20.0" />
+      <AnchorPane layoutX="14.0" layoutY="78.0" prefHeight="200.0" prefWidth="290.0" styleClass="adm_card" stylesheets="@../../styles/AdmDashPermissoes.css" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="19.0" prefWidth="139.0" text="Sessão:" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="13.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutX="120.0" layoutY="13.0" prefHeight="19.0" prefWidth="108.0" text="01/05/2024" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+            <Label layoutX="12.0" layoutY="42.0" prefHeight="19.0" prefWidth="139.0" text="Início da sessão:" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="41.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutY="43.0" prefHeight="19.0" prefWidth="108.0" text="19h05" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="42.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+            <Label layoutX="13.0" layoutY="73.0" prefHeight="19.0" prefWidth="139.0" text="Tempo da sessão:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="72.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutX="11.0" layoutY="73.0" prefHeight="19.0" prefWidth="108.0" text="10m52s" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="72.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+            <Label layoutX="13.0" layoutY="103.0" prefHeight="19.0" prefWidth="139.0" text="Temperatura:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="102.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutX="242.0" layoutY="103.0" prefHeight="19.0" prefWidth="108.0" text="100º" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="102.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+            <Label layoutX="13.0" layoutY="133.0" prefHeight="19.0" prefWidth="139.0" text="Memoria Disp:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="132.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutX="246.0" layoutY="133.0" prefHeight="19.0" prefWidth="108.0" text="8GB" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="132.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+            <Label layoutX="13.0" layoutY="163.0" prefHeight="19.0" prefWidth="139.0" text="Processador:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="162.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass></Label>
+            <Label layoutX="246.0" layoutY="162.0" prefHeight="19.0" prefWidth="108.0" text="Intel Core i7" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="161.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="315.0" layoutY="80.0" prefHeight="200.0" prefWidth="290.0" styleClass="adm_card" stylesheets="@../../styles/AdmDashPermissoes.css" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="19.0" prefWidth="139.0" text="Espaço total em disco:" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="13.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutX="120.0" layoutY="13.0" prefHeight="19.0" prefWidth="108.0" text="120 GB" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+            <Label layoutX="12.0" layoutY="42.0" prefHeight="19.0" prefWidth="139.0" text="Espaço disp. em disco:" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="41.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutY="43.0" prefHeight="19.0" prefWidth="108.0" text="60 GB" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="42.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+            <Label layoutX="13.0" layoutY="73.0" prefHeight="19.0" prefWidth="139.0" text="Sist. Operacional:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="72.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutX="11.0" layoutY="73.0" prefHeight="19.0" prefWidth="108.0" text="Windows 10" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="72.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+            <Label layoutX="13.0" layoutY="103.0" prefHeight="19.0" prefWidth="139.0" text="Arquitetura:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="102.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutX="242.0" layoutY="103.0" prefHeight="19.0" prefWidth="108.0" text="64bit" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="102.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+            <Label layoutX="13.0" layoutY="133.0" prefHeight="19.0" prefWidth="139.0" text="Uso de CPU:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="132.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutX="246.0" layoutY="133.0" prefHeight="19.0" prefWidth="108.0" text="42%" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="132.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+            <Label layoutX="13.0" layoutY="163.0" prefHeight="19.0" prefWidth="139.0" text="Vel. Rede" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="162.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="title_bold" />
+                  <String fx:value="p_left" />
+               </styleClass>
+            </Label>
+            <Label layoutX="246.0" layoutY="162.0" prefHeight="19.0" prefWidth="108.0" text="844 kbp/s" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="161.0">
+               <styleClass>
+                  <String fx:value="p" />
+                  <String fx:value="p_right" />
+               </styleClass>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="610.5" endY="323.29290771484375" layoutX="-19.5" layoutY="-19.0" startX="40.0" startY="323.29290771484375" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="38.5" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="painel_permissoes" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="330.0">
+         <children>
+            <Label styleClass="title_user" text="Permissões de uso" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <HBox prefHeight="53.0" prefWidth="600.0" styleClass="painel_permissoes" AnchorPane.bottomAnchor="202.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <CheckBox mnemonicParsing="false" text="Mouse" />
+                  <CheckBox layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Teclado" />
+                  <CheckBox layoutX="87.0" layoutY="15.0" mnemonicParsing="false" text="USB" />
+               </children>
+            </HBox>
+            <HBox layoutX="15.0" layoutY="55.0" prefHeight="53.0" prefWidth="600.0" styleClass="painel_permissoes" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="100.0">
+               <children>
+                  <CheckBox mnemonicParsing="false" text="Instalar/Desinstalar" />
+                  <CheckBox layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Permissões Administrativas" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

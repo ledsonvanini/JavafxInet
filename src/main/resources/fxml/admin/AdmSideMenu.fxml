@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="210.0" styleClass="main_menu_container" stylesheets="@../../styles/menu-left-server.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.inet.controllers.AdminController">
+   <VBox layoutY="5.0" prefHeight="95.0" prefWidth="170.0" styleClass="menu_logo" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-29.0">
+      <ImageView fitHeight="64.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/inet-logo.png" />
+         </image>
+      </ImageView>
+   </VBox>
+   <VBox layoutX="10.0" layoutY="10.0" prefHeight="365.0" prefWidth="170.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
+      <Button fx:id="btnDevices" accessibleRole="TOGGLE_BUTTON" mnemonicParsing="false" onAction="#getAdmRightSideScreen" styleClass="menu_button" text="Dispositivos">
+         <graphic>
+            <FontAwesomeIconView glyphName="DESKTOP" size="18" />
+         </graphic>
+      </Button>
+      <Button fx:id="btnPermissions" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#getPermissionScreen" styleClass="menu_button" text="Permissões">
+         <graphic>
+            <FontAwesomeIconView glyphName="SHIELD" size="18" />
+         </graphic>
+      </Button>
+      <Button fx:id="btnLogs" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" styleClass="menu_button" text="Logs">
+         <graphic>
+            <FontAwesomeIconView glyphName="FILE_TEXT_ALT" size="18" />
+         </graphic>
+      </Button>
+      <Button fx:id="btnSettings" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" styleClass="menu_button" text="Configurações">
+         <graphic>
+            <FontAwesomeIconView glyphName="GEAR" size="18" />
+         </graphic>
+      </Button>
+   </VBox>
+   <AnchorPane prefHeight="136.0" prefWidth="170.0" styleClass="parent_credit_section">
+      <VBox layoutX="10.0" layoutY="25.0" prefHeight="154.0" prefWidth="190.0" styleClass="credit_section" AnchorPane.bottomAnchor="-26.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <Button fx:id="btnDisconect" mnemonicParsing="false" styleClass="credit_section_btn" text="Desconectar">
+            <graphic>
+               <FontAwesomeIconView glyphName="ARROW_CIRCLE_ALT_LEFT" size="18" />
+            </graphic>
+         </Button>
+         <Label fx:id="btnCredit" styleClass="credit_section" text="Créditos" />
+      </VBox>
+   </AnchorPane>
+</VBox>

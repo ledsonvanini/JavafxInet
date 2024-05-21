@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="840.0" styleClass="adm_top_bar" stylesheets="@../../styles/AdmTopBar.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.inet.controllers.AdminTopBarController">
+   <AnchorPane layoutX="741.0" prefHeight="31.0" prefWidth="55.0" style="-fx-background-color: transparent;" styleClass="adm_top_bar" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="745.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+      <FontAwesomeIconView fx:id="btn_admin_min" accessibleRole="BUTTON" fill="#777d94" glyphName="WINDOW_MINIMIZE" layoutX="44.0" layoutY="15.714285850524902" onMouseClicked="#minWindow" selectionEnd="1" size="16" styleClass="btn_minimize" text="" textAlignment="CENTER" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="2.0" />
+      <FontAwesomeIconView fx:id="btn_admin_close" accessibleRole="BUTTON" cache="true" fill="#e5475a" glyphName="CLOSE" layoutX="69.0" layoutY="20.14285659790039" onMouseClicked="#exitSystem" selectionEnd="1" size="20" styleClass="btn_close" textAlignment="CENTER" AnchorPane.rightAnchor="10.285714149475098" AnchorPane.topAnchor="3.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="14.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="759.0" styleClass="box_top_text" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="10.0">
+      <HBox layoutX="-1.0" prefHeight="50.0" prefWidth="151.0" styleClass="box_top_text" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="0.0">
+         <Label styleClass="box_top_left_text" text="Sala:" />
+         <Label text="21" />
+      </HBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="280.0" styleClass="box_top_text" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="0.0">
+         <Label styleClass="box_top_left_text" text="Turma:" />
+         <Label text=" Informática  2º Ano" />
+      </HBox>
+      <HBox layoutX="160.0" layoutY="10.0" prefHeight="50.0" prefWidth="272.0" styleClass="box_top_text" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="0.0">
+         <Label styleClass="box_top_left_text" text="Período:" />
+         <Label text="Noturno" />
+      </HBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefHeight="45.0" prefWidth="60.0" styleClass="box_top_text" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../images/cep-logo.png" />
+         </ImageView>
+      </HBox>
+   </AnchorPane>
+</AnchorPane>

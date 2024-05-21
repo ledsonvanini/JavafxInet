@@ -1,0 +1,85 @@
+*{
+    // Colors
+    -fx-alpha: transparent;
+    -fx-dark1: #0B0C0E;
+    -fx-dark2: #101113;
+    -fx-dark-grey1:#C3CCD5;
+    -fx-light-grey1:#202226;
+    -fx-light-grey2:#E8E8E8;
+    -fx-medium-blue1:#5794F2;
+    -fx-medium-blue2:#a7c4ef;
+    -fx-medium-green1:#80DC74;
+    -fx-medium-red1:#E5475A;
+    -fx-medium-yellow1:#FADE2A;
+
+    // Utils
+    -fx-intern-radius: 1em;
+    -fx-extern-radius: 2em;
+
+}
+
+.adm_dash_permissoes {
+   -fx-background-color: -fx-dark1;
+   -fx-border-radius:10px;
+   -fx-border-radius: 8px;
+   -fx-alignment: center;
+}
+/* UTILS */
+.p {
+    -fx-text-fill: -fx-dark-grey1;
+    -fx-font-size: 1.0em;
+    -fx-font-font-weight: 400;
+
+}
+.p_right {
+    -fx-alignment: center-right;
+}
+.p_left {
+    -fx-alignment: center-left;
+}
+
+/* TITLE Styles */
+.title {
+    -fx-text-fill: -fx-dark-grey1;
+    -fx-font-size: 1.1em;
+    -fx-font-font-weight: 400;
+
+}
+
+.title_user {
+    -fx-text-fill: -fx-medium-blue1;
+    -fx-font-size: 2em;
+    -fx-font-font-weight: 400;
+}
+.title_bold {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: 800;
+}
+/* Cards-Top */
+.adm_card {
+   -fx-background-color: -fx-dark2;
+   -fx-background-radius: 8;
+   -fx-border-radius: 8;
+   -fx-border-color: -fx-light-grey1;
+   -fx-border: 1;
+
+}
+/* Painel de permissões */
+.painel_permissoes{
+    -fx-padding: 5;
+    -fx-spacing: 3em;
+}
+.check-box {
+    -fx-text-fill: -fx-dark-grey1;
+}
+.check-box .box {
+    -fx-background-color:-fx-medium-blue1;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: -fx-medium-green1;
+}

@@ -1,0 +1,44 @@
+*{
+    // Colors
+    -fx-alpha: transparent;
+    -fx-dark1: #0B0C0E;
+    -fx-dark-grey1:#C3CCD5;
+    -fx-light-grey1:#202226;
+    -fx-light-grey2:#E8E8E8;
+    -fx-medium-blue1:#5794F2;
+    -fx-medium-blue2:#a7c4ef;
+    -fx-medium-green1:#80DC74;
+    -fx-medium-red1:#E5475A;
+    -fx-medium-yellow1:#FADE2A;
+
+    // Utils
+    -fx-intern-radius: 1em;
+    -fx-extern-radius: 2em;
+
+}
+
+.adm_top_bar {
+    -fx-background-color:transparent;
+   -fx-border-radius:10px;
+   -fx-border-radius: 8px;
+   -fx-alignment: center;
+}
+.adm_top_bar AnchorPane {
+    -fx-background-color: -fx-light-grey1;
+    -fx-alignment: center;
+   -fx-background-radius: 7px;
+}
+.box_top_text {
+    -fx-alignment: center;
+}
+.box_top_text Label {
+    -fx-text-fill: white;
+    -fx-padding: 7px;
+}
+.box_top_left_text {
+     -fx-font-weight: bold;
+}
+.btn_minimize,
+.btn_close {
+    -fx-cursor: hand;
+}
