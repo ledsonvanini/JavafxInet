@@ -6,11 +6,11 @@
             minHeight="-Infinity" minWidth="-Infinity" styleClass="admin_main_screen"
             stylesheets="@../../styles/admin_main_screen.css" xmlns="http://javafx.com/javafx/21"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.fx.inet.controllers.AdminController" fx:id="adminScreen">
+            fx:id="adminScreen">
     <left>
-        <fx:include source="AdmSideMenu.fxml" />
+        <fx:include source="AdmSideMenu.fxml"/>
     </left>
     <center>
-        <fx:include source="AdmRightSide.fxml" />
+        <fx:include source="AdmRightSide.fxml"/>
     </center>
 </BorderPane>

@@ -1,10 +1,9 @@
 package com.fx.inet.controllers;
-import com.fx.inet.views.ViewFactory;
+import com.fx.inet.scenes.ViewFactory;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -25,7 +24,6 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btn_entrar.setOnAction(event -> onLogin());
-
     }
 
     private void onLogin(){
@@ -33,10 +31,9 @@ public class LoginController implements Initializable {
 
         ViewFactory viewFactory = new ViewFactory();
         viewFactory.closeStage(stage);
-        viewFactory.getAdminView();
-   
-
+        viewFactory.showAdminView();
     }
+
     public void exitSystem() {
         Platform.exit();
         System.exit(1);
@@ -46,7 +43,8 @@ public class LoginController implements Initializable {
         Stage stage = (Stage) btn_login_min.getScene().getWindow();
         stage.setIconified(true);
     }
-/*
+
+    /*
     public void dragWindow(MouseEvent mouseEvent) {
         scr_login.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
@@ -56,5 +54,6 @@ public class LoginController implements Initializable {
                 yOffset = primaryStage.getY() - event.getScreenY();
             }
         })
-    }*/
+    }
+    */
 }

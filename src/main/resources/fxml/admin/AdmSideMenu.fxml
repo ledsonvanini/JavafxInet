@@ -22,7 +22,7 @@
             <FontAwesomeIconView glyphName="DESKTOP" size="18" />
          </graphic>
       </Button>
-      <Button fx:id="btnPermissions" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#getPermissionScreen" styleClass="menu_button" text="Permissões">
+      <Button fx:id="btnPermissions" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" styleClass="menu_button" text="Permissões">
          <graphic>
             <FontAwesomeIconView glyphName="SHIELD" size="18" />
          </graphic>

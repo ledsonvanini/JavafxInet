@@ -18,6 +18,10 @@
 
 }
 
+.adm_permissions_top {
+     -fx-spacing: 10em;
+}
+
 .adm_dash_permissoes {
    -fx-background-color: -fx-dark1;
    -fx-border-radius:10px;

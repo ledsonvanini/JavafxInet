@@ -54,6 +54,7 @@
 .menu_button:focused {
     -fx-background-color: -fx-dark1;
 }
+
 /* Credit Section*/
 .parent_credit_section {
  -fx-border-radius: 1em, 0, 0, 1em;
